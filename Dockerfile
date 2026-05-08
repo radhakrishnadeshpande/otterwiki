@@ -1,2 +1,2 @@
 FROM redimp/otterwiki:2
-COPY app-data/repository/ /app-data/
+COPY app-data/app-data/ /app-data/
