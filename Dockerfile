@@ -1,2 +1,5 @@
 FROM redimp/otterwiki:2
-COPY app-data/app-data/ /app-data/
+
+RUN mkdir -p /app-data
+
+COPY app-data/app-data/*.md /app-data/
