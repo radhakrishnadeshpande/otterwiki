@@ -1,0 +1,1 @@
+FROM redimp/otterwiki:2
